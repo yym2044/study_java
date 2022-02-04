@@ -6,7 +6,8 @@ public class CharExample {
 
 		char c1 = 'A';
 		char c2 = 65;
-		char c3 = '\u0041';
+		char c3 = '\u0041'; 
+//		\ + u : 16진수를 나타내는 이스케이프 문자
 		
 		char c4 = '가';
 		char c5 = 44032;
