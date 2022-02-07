@@ -4,6 +4,15 @@ public class Variable {
 
 	public static void main(String[] args) {
 
+		
+		String fullName="fullName : 카멜표기법(변수, 함수)";
+		String full_name="full_name : 스네이크표기법";
+		String FullName="FullName : 파스칼표기법(클래스, 상수)"; //	
+		
+		System.out.println(fullName);
+		System.out.println(full_name);
+		System.out.println(FullName);
+		
 		// 변수 명명법
 		// 첫글자 소문자 그리고 다음 문자열 부터는 대문자 
 		// 모든 변수명은 띄어쓰기 없이 사용
