@@ -4,13 +4,11 @@ public class GuGuDan {
 
 	public static void main(String[] args) {
 		
-		System.out.println("구구단을 외자");
-		for(int i=2; i<=19; i++) {
-			System.out.println(i + "단");
-			for(int j=1; j<=19; j++) {
-				System.out.println(i + " * " + j + " = " + (i*j));
+		for(int i=1; i<=9; i++) {
+			for(int j=2; j<=9; j++) {
+				System.out.print(j + " * " + i + " = " + (i*j) + "\t");
 			}
-		System.out.println();
+			System.out.println();
 		}
 	}
 }
