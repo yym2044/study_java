@@ -19,8 +19,13 @@ public class ConditionLoop {
 //			do-while
 //		참고
 //			break
+//				if문과 같이 쓰임
+//				루프문 탈출
+//				필요한 경우 라벨을 사용하여(Outter) 상위 루프 탈출 가능
 //			continue
-			
+//				if문과 같이 쓰임
+//				for문에 쓰일 경우 증감식으로 탈출
+//				while, do-while문에 쓰일 경우 조건식으로 이동
 	}
 
 }
