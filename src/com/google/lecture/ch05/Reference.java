@@ -1,4 +1,4 @@
-package com.urdomain.lecture.ch05;
+package com.google.lecture.ch05;
 
 public class Reference {
 

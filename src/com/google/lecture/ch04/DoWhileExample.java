@@ -1,4 +1,4 @@
-package ch04;
+package com.google.lecture.ch04;
 
 import java.util.Scanner;	// ctrl shift o
 
