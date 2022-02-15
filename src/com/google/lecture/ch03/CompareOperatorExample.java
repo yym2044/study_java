@@ -1,4 +1,4 @@
-package ch03;
+package com.google.lecture.ch03;
 
 public class CompareOperatorExample {
 
