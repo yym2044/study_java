@@ -21,7 +21,7 @@ public class Exc2 {
 		String[] western = { "파스타", "리조또", "피자", "햄버거", "스테이크", "샐러드" };
 		String[] japanese = { "초밥", "돈까스", "우동", "타꼬야끼", "사시미" };
 		String[] menu = null;
-
+		
 		switch (FC) {
 		case "한식":
 			menu = korean;
