@@ -9,19 +9,30 @@ public class Function {
 //			return 리턴값; // 리턴자료형이 void인 경우에는 return문이 필요없다.
 //		}
 		
-		System.out.println(plus(1,2));
-		System.out.println(minus(4,4));
-		System.out.println(multi(4,5));
-		System.out.println(div(4,3));
+//		System.out.println(plus(1,2));
+//		System.out.println(minus(4,4));
+//		System.out.println(multi(4,5));
+//		System.out.println(div(4,3));
+//		
+//		System.out.println();
+//		
+//		all(1,2);
+//		System.out.println();
+//		
+//		System.out.println(arithmeticOperation(1,2,3));
+		
+		for(int i=0;i<arithmeticOperation2(6,3).length;i++) {
+			System.out.println(arithmeticOperation2(6,3)[i]);
+		}
 		
 		System.out.println();
 		
-		all(1,2);
-		System.out.println();
+		for(int a : arithmeticOperation2(5,7)) {
+			System.out.println(a);
+		}
 		
-		System.out.println(arithmeticOperation(1,2,3));
+		System.out.println(qwe("abc","def"));
 		
-		System.out.println(arithmeticOperation2(1,2)[3]);
 	}
 
 	public static int plus(int a, int b) {
@@ -85,5 +96,8 @@ public class Function {
 		
 		return result;
 	}
-	
+		
+		public static String qwe(String a, String b) {
+			return a + b;
+		}
 }
