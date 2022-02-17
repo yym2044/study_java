@@ -13,10 +13,15 @@ public class Function {
 		System.out.println(minus(4,4));
 		System.out.println(multi(4,5));
 		System.out.println(div(4,3));
+		
 		System.out.println();
+		
 		all(1,2);
 		System.out.println();
 		
+		System.out.println(arithmeticOperation(1,2,3));
+		
+		System.out.println(arithmeticOperation2(1,2)[3]);
 	}
 
 	public static int plus(int a, int b) {
@@ -54,6 +59,31 @@ public class Function {
 		System.out.println(a*b);
 		System.out.println(a/b);
 		
+	}
+	
+	public static int arithmeticOperation(int a, int b, int c) {
+		
+		if(a==1) {
+			return b + c;
+		} else if(a==2) {
+			return b - c;
+		} else if(a==3) {
+			return b * c;
+		} else {
+			return b / c;
+		}
+	}
+	
+		public static int[] arithmeticOperation2(int a, int b) {
+		
+		int plus = a + b;
+		int minus = a - b;
+		int multiply = a * b;
+		int divide = a / b;
+		int result[] = {plus, minus, multiply, divide};
+		
+		
+		return result;
 	}
 	
 }
