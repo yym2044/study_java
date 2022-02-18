@@ -11,6 +11,10 @@ public class Car {
 	int maxSpeed = 240;
 	int speed = 0;
 	
-//	method
+//	method : 함수 : function
 	
+//	엑셀밟기
+//	
+//	속도올리기
+//	
 }
