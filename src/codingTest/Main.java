@@ -1,15 +1,29 @@
 package codingTest;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
 
 
-    	int tmp = 0;
+    	Scanner sc = new Scanner(System.in);
     	
-    	for(int i=0; i<10; i++) {
-    		tmp++;
+    	int N = sc.nextInt();
+    	int X = sc.nextInt();
+    	
+    	int[] arr = new int[N];
+    	
+    	
+    	sc.nextLine();
+    	
+    	for(int i=0;i<N;i++) {
+    		arr[i] = sc.nextInt();
     	}
     	
-    	System.out.println(tmp);
+    	for(int i=0;i<N;i++) {
+    		if(arr[i]<X) {
+    			System.out.print(arr[i]+" ");
+    		}
+    	}
     }
 }

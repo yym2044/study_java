@@ -9,7 +9,7 @@ public class BreakOutterExample {
 			for(char lower='a'; lower<='z'; lower++) {
 				System.out.println(upper + "-" + lower);
 				if(lower=='g') {
-					break; // break Outter;
+					break Outter; // break;
 				}
 			}
 		
