@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.step5;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class Main2577 {
 		
 		
 		for(int i=0;i<str.length();i++) {
-			if(str.charAt(i)=='1') {
+			if(str.charAt(i)=='2') {
 				count++;
 			}
 		}

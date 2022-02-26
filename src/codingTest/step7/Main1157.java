@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.step7;
 
 import java.util.Scanner;
 
@@ -13,6 +13,7 @@ public class Main1157 {
 		String str2 = str.toUpperCase();
 		
 		int count = 0;
+		
 		int[] arr = new int[26];
 		
 
@@ -33,7 +34,6 @@ public class Main1157 {
 			}
 		}
 		
-
 		
 //		ifSameValue 변수는 배열내에 max값이 중복되는 경우(가장 많이 사용된 알파벳이 여러 개 존재하는 경우) 카운트된다.
 		

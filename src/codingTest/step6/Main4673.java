@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.step6;
 
 public class Main4673 {
 
