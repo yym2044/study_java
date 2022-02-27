@@ -1,12 +1,16 @@
 package codingTest;
 
-public class Main {
+public class Main{
 	public static void main(String[] args) {
-
-		boolean[] ch = new boolean[5];
 		
-		System.out.println(ch[0]);
+		int a = '1'-48;
 		
+		
+		
+		System.out.println(a);
+		
+		char A = (char)1678;
+		
+		System.out.println(A);
 	}
-
 }
