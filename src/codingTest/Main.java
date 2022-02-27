@@ -11,6 +11,6 @@ public class Main{
 		
 		char A = (char)1678;
 		
-		System.out.println(A);
+		System.out.println(A); 
 	}
 }
