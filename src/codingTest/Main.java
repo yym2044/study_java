@@ -7,22 +7,18 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-
 		int N = sc.nextInt();
-		int copy = N;
 		
-		int count = 0;
+		int[] arr = new int[N];
 		
-		while(true) {
-			
-			N = ((N%10)+((N/10)%10))%10 + (N%10)*10;
-			count++;
-			
-			if(copy == N)
-				break;
+		for(int i=0;i<arr.length;i++) {
+			arr[i] = sc.nextInt();
+		}
+		
+		int max = arr[0];
+		for(int i=0;i<arr.length;i++) {
 			
 		}
 		
-		System.out.println(count);
 	}
 }
