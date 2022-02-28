@@ -1,16 +1,28 @@
 package codingTest;
 
-public class Main{
+import java.util.Scanner;
+
+public class Main {
 	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+
+		int N = sc.nextInt();
+		int copy = N;
 		
-		int a = '1'-48;
+		int count = 0;
 		
+		while(true) {
+			
+			N = ((N%10)+((N/10)%10))%10 + (N%10)*10;
+			count++;
+			
+			if(copy == N)
+				break;
+			
+		}
 		
-		
-		System.out.println(a);
-		
-		char A = (char)1678;
-		
-		System.out.println(A); 
+		System.out.println(count);
 	}
 }
