@@ -2,23 +2,26 @@ package codingTest;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main{
 	public static void main(String[] args) {
-
+		
 		Scanner sc = new Scanner(System.in);
-
-		int N = sc.nextInt();
 		
-		int[] arr = new int[N];
+		int[] arr = new int[9];
 		
-		for(int i=0;i<arr.length;i++) {
+		int max = -1;
+		int index = 0;
+		
+		for(int i=0;i<9;i++) {
 			arr[i] = sc.nextInt();
+			if(max < arr[i]) {
+				max = arr[i];
+				index = i+1;
+			}
 		}
 		
-		int max = arr[0];
-		for(int i=0;i<arr.length;i++) {
-			
-		}
+		System.out.println(max);
+		System.out.println(index);
 		
 	}
 }
