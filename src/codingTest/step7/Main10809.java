@@ -10,9 +10,22 @@ public class Main10809 {
 		String str = sc.next();
 		sc.close();
 
-		for(int i=0;i<26;i++){
-	
-			
+		for(int i=97;i<123;i++){
+
+		int index = 0;
+		
+			for(int j=0;j<str.length();j++) {
+
+				if((char)i==str.charAt(j)) {
+					
+					index = j;
+					break;
+				} else {
+					index = -1;
+				}
+				
+			}
+			System.out.print(index + " ");
 		}
 		
 	}
