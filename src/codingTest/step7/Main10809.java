@@ -10,6 +10,10 @@ public class Main10809 {
 		String str = sc.next();
 		sc.close();
 
+		for(int i=0;i<26;i++){
+			
+			
+		}
 		
 	}
 
