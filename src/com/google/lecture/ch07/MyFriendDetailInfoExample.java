@@ -11,10 +11,10 @@ public class MyFriendDetailInfoExample {
 		myFriendDetailInfo.setAddress("대한민국 어딘가");
 		myFriendDetailInfo.setContact("010-1234-5678");
 		
-		System.out.println(myFriendDetailInfo.getName());
-		System.out.println(myFriendDetailInfo.getAge());
-		System.out.println(myFriendDetailInfo.getAddress());
-		System.out.println(myFriendDetailInfo.getContact());
+		System.out.println("이름 : " + myFriendDetailInfo.getName());
+		System.out.println("나이 : " + myFriendDetailInfo.getAge());
+		System.out.println("주소 : " + myFriendDetailInfo.getAddress());
+		System.out.println("연락처 : " +myFriendDetailInfo.getContact());
 		
 	}
 
