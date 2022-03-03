@@ -1,4 +1,4 @@
-package com.google.lecture.ch07.banana;
+package com.urdomain.lecture.ch07.banana;
 
 class Blueberry {
 
