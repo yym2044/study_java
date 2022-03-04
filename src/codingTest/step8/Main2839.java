@@ -15,7 +15,15 @@ public class Main2839 {
 		int bag = 0;
 
 //		N = 5X + 3Y
+
 		
+		if((N/5)%3==0) {
+			bag = bag + (N/5);
+			N /= 5;
+		} else
+		
+		System.out.println(N);
+		System.out.println(bag);
 	}
 
 }
