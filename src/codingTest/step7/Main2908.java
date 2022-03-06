@@ -1,22 +1,18 @@
-package codingTest;
+package codingTest.step7;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
-public class Main2{
+public class Main2908{
 	public static void main(String[] args) throws IOException {
-		
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		String str = br.readLine();
 		
-		StringTokenizer stk = new StringTokenizer(str);
-		
-		String str1 = stk.nextToken();
-		String str2 = stk.nextToken();
+		String str1 = str.split(" ")[0];
+		String str2 = str.split(" ")[1];
 		
 		char[] ch1 = new char[3];
 		char[] ch2 = new char[3];

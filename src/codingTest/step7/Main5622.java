@@ -1,8 +1,8 @@
-package codingTest;
+package codingTest.step7;
 
 import java.util.Scanner;
 
-class Main{
+public class Main5622{
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
