@@ -2,8 +2,6 @@ package com.google.lecture.ch08;
 
 public interface RemoteControl {
 
-	public String name = "Tony";
-	
 //	상수
 	public static final int MAX_VOLUME = 10;
 	int MIN_VOLUME = 0;		// public static final 생략 가능
