@@ -6,7 +6,7 @@ public class EnumMethodExample2 {
 
 	public static void main(String[] args) {
 
-//		// name() 메소드
+		// name() 메소드
 //		Week today = Week.SUNDAY;
 //		
 //		String name = today.name();
@@ -42,10 +42,10 @@ public class EnumMethodExample2 {
 //		}
 
 		// values() 메소드
-		Week[] days = Week.values();
-		for (Week day : days) {
-			System.out.println(day);
-		}
+//		Week[] days = Week.values();
+//		for (Week day : days) {
+//			System.out.println(day);
+//		}
 
 	}
 

@@ -8,10 +8,10 @@ public class IntExample {
 		int var2 = 012; //8진수
 		int var3 = 0xA; //16진수
 		
+		
 		System.out.println(var1);
 		System.out.println(var2);
 		System.out.println(var3);
-		
 	}
 
 }
