@@ -4,42 +4,18 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
-		
-		int x1 = sc.nextInt();
-		int y1 = sc.nextInt();
-		
-		sc.nextLine();
-		
-		int x2 = sc.nextInt();
-		int y2 = sc.nextInt();
-		
-		sc.nextLine();
-		
-		int x3 = sc.nextInt();
-		int y3 = sc.nextInt();
-		
-		int x4 = 0 ;
-		int y4 = 0 ;
-		
-		if(x1==x2) {
-			x4 = x3;
-		} else if(x2==x3) {
-			x4 = x1;
-		} else if(x1==x3) {
-			x4 = x2; 
+		Scanner in = new Scanner(System.in);
+        
+		int N = in.nextInt();
+ 
+		for (int i = 2; i <= Math.sqrt(N); i++) {	// 또는 i * i <= N
+			while (N % i == 0) {
+				System.out.println(i);
+				N /= i;
+			}
 		}
-		
-		if(y1==y2) {
-			y4 = y3;
-		} else if(y2==y3) {
-			y4 = y1;
-		} else if(y1==y3) {
-			y4 = y2; 
+		if (N != 1) {
+			System.out.println(N);
 		}
-		
-		System.out.println(x4 + " " + y4);
-		
 	}
 }
