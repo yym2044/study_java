@@ -1,20 +1,12 @@
 package codingTest;
 
-import java.util.Scanner;
-
 public class Main {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
-
-		int M = sc.nextInt();
-		int N = sc.nextInt();
+		int[] arr = new int[5];
 		
-		boolean[] isPrimeNum = new boolean[N-M+1];
-		
-		
-		
+		arr[6] = 2;
 		
 	}
 
