@@ -6,6 +6,8 @@ public class ThrowExample {
 
 		Class clazz = Class.forName("java.langg.String2");
 		
+		
+		
 	}
 
 }
