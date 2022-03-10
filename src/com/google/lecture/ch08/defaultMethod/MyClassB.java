@@ -8,4 +8,9 @@ public class MyClassB implements MyInterface {
 		
 	}
 
+	@Override
+	public void method2() {
+		System.out.println("MyClassB-method2() 실행");
+	}
+
 }
