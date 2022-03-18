@@ -38,7 +38,7 @@ public class HashMapExample {
 		
 		System.out.println("---------------------------------");
 		
-		//LinkedHashMap --> 순서
+		//LinkedHashMap --> 순서를 지킴
 		Map<String, Integer> map2 = new LinkedHashMap<String, Integer>();
 		
 		//객체 저장
