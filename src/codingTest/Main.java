@@ -7,7 +7,7 @@ public class Main {
 		int[] arr = new int[5];
 		
 		arr[6] = 2;
-		
+		 
 	}
 
 }
